@@ -25,8 +25,8 @@ namespace WebsSelector
             Console.WriteLine("1) MemeDeportes");
             Console.WriteLine("2) CuantaRazón");
             Console.WriteLine("3) YouTube");
-            Console.WriteLine("4) Amazon");
-            Console.WriteLine("5) PCComponentes");
+            Console.WriteLine("4) Gmail");
+            Console.WriteLine("5) Amazon");
             Console.WriteLine("6) Ali-Express");
             Console.WriteLine("7) Instant-Gaming");
             Console.WriteLine("8) Intranet");
@@ -48,11 +48,11 @@ namespace WebsSelector
                     break;
 
                 case "4":
-                    System.Diagnostics.Process.Start("www.amazon.es");
+                    System.Diagnostics.Process.Start("https://mail.google.com/mail/u/0/");
                     break;
 
                 case "5":
-                    System.Diagnostics.Process.Start("www.pccomponentes.com");
+                    System.Diagnostics.Process.Start("www.amazon.es");
                     break;
 
                 case "6":
