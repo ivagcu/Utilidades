@@ -29,6 +29,8 @@ namespace WebsSelector
             Console.WriteLine("5) PCComponentes");
             Console.WriteLine("6) Ali-Express");
             Console.WriteLine("7) Instant-Gaming");
+            Console.WriteLine("8) Intranet");
+            Console.WriteLine("9) Poliformat");
 
             while(true)
             switch (Console.ReadLine()) {
@@ -46,7 +48,7 @@ namespace WebsSelector
                     break;
 
                 case "4":
-                    System.Diagnostics.Process.Start("www.amazon.com");
+                    System.Diagnostics.Process.Start("www.amazon.es");
                     break;
 
                 case "5":
@@ -54,11 +56,19 @@ namespace WebsSelector
                     break;
 
                 case "6":
-                    System.Diagnostics.Process.Start("www.aliexpress.com");
+                    System.Diagnostics.Process.Start("www.es.aliexpress.com");
                     break;
 
                 case "7":
                     System.Diagnostics.Process.Start("www.instant-gaming.com/es/");
+                    break;
+                    
+                case "8":
+                    System.Diagnostics.Process.Start("https://intranet.upv.es/pls/soalu/est_intranet.Ni_portal_n");
+                    break;
+                    
+                case "9":
+                    System.Diagnostics.Process.Start("https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339");
                     break;
                 }
 
